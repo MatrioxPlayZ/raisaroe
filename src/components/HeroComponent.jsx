@@ -14,10 +14,10 @@ export default function HeroComponent() {
                 <h2 className='text-2xl blog'>Blog</h2>
                 <h2 className='text-2xl works'>Works</h2>
             </nav>
-            <div className='aboutDetail'>I am a college student working towards my goal of
-                becoming a ------. <br/> I am currently working on
-                ----------------------------------------. <br/>I am currently learning
-                ----------------------------------------.
+            <div className='aboutDetail'><p>I am a college student working towards my goal of
+                becoming a.</p><p>I am currently working on.
+            </p> <p>I am currently learning.
+            </p>
             </div>
         </div>
     );
