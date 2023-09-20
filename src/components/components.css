@@ -1,0 +1,77 @@
+.hero {
+    opacity: 1;
+}
+
+@media screen and  (min-width: 768px) {
+
+    .navbar {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 2rem;
+        margin-right: 2rem;
+
+    }
+
+    .navbar h1 {
+        letter-spacing: 0.2rem;
+        font-weight: 200;
+
+    }
+
+    .navbar h2 {
+        letter-spacing: 0.05rem;
+        font-weight: 300;
+    }
+
+    .hero {
+        transition: all 200ms ease-out;
+    }
+
+    .blog {
+        opacity: 0.5;
+        transition: all 200ms ease-out;
+        background: var(--primary);
+        padding: 1rem;
+
+        border-radius: 0.2rem;
+
+    }
+
+    .blog:hover {
+        transition: all 200ms ease-out;
+        scale: 1.05;
+        opacity: 1;
+        color: white;
+        box-shadow: 0 0 0 0.2rem var(--accent);
+    }
+
+    .works {
+        opacity: 0.5;
+        transition: all 200ms ease-out;
+        background: var(--secondary);
+        padding: 1rem;
+        border-radius: 0.2rem;
+    }
+
+    .works:hover {
+        opacity: 1;
+        transition: all 200ms ease-out;
+        scale: 1.05;
+        color: white;
+        box-shadow: 0 0 0 0.1rem var(--accent);
+    }
+
+    .aboutDetail {
+        margin-top: 20vh;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 100vh;
+        letter-spacing: 0.1rem;
+        line-height: 2rem;
+        font-weight: 400;
+        background: var(--secondary);
+        padding: 2rem;
+        border-radius: 0.5rem;
+    }
+}

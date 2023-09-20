@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    background-color: var(--background);
+    color: var(--text);
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    --text: #f1eff0;
+    --background: #161314;
+    --primary: #606c67;
+    --secondary: #1a1e1e;
+    --accent: #7d8a7d;
+    transition: all 0.1s ease-out;
+}
+
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #7D8A7D #161314;
+}
+
+/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+    height: 10px;
+    width: 6px;
+    transition: all 0.1s ease-in-out;
+}
+
+*::-webkit-scrollbar-track {
+    border-radius: 5px;
+    transition: all 0.1s ease-in-out;
+    background-color: #161314;
+}
+
+*::-webkit-scrollbar-track:hover {
+    background-color: #161314;
+    transition: all 0.1s ease-in-out;
+}
+
+*::-webkit-scrollbar-track:active {
+    background-color: #161314;
+}
+
+*::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #7D8A7D;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background-color: #606C67;
+    transition: all 0.1s ease-in-out;
+}
+
+*::-webkit-scrollbar-thumb:active {
+    background-color: #606C67;
+    transition: all 0.1s ease-in-out;
+}
