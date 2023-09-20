@@ -10,7 +10,7 @@ export default function HeroComponent() {
     return (
         <div className="hero">
             <nav className='navbar'>
-                <h1 className='container mx-auto text-4xl name'>Sarah Rai</h1>
+                <h1 className='container mx-auto text-4xl'><span className='name'>Sarah Rai</span></h1>
                 <h2 className='text-2xl blog'>Blog</h2>
                 <h2 className='text-2xl works'>Works</h2>
             </nav>
